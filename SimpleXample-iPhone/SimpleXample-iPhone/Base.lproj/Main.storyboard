@@ -1,25 +1,269 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vjj-a00-398">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="v1j-a00-398">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vjj-a00-398" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="v3j-a00-398"/>
+                        <viewControllerLayoutGuide type="bottom" id="v4j-a00-398"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <view key="view" contentMode="scaleToFill" id="v5j-a00-398">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-789">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-565">
+                                <rect key="frame" x="85" y="149" width="152" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ijj-P00-565" secondAttribute="height" multiplier="152:135" id="Pol-8w-du0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-japps" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-j00-855">
+                                <rect key="frame" x="79" y="368" width="153" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ijj-j00-855" secondAttribute="height" multiplier="153:43" id="IsO-eK-pDL"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-782">
+                                <rect key="frame" x="273" y="30" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="jGh-Pd-UTl"/>
+                                    <constraint firstAttribute="width" constant="31" id="x99-7e-nOe"/>
+                                </constraints>
+                                <state key="normal" title="" backgroundImage="btn-info"/>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-p00-853">
+                                <rect key="frame" x="13" y="29" width="33" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="33" id="Htc-Ce-5Zz"/>
+                                    <constraint firstAttribute="height" constant="32" id="sO4-iB-PES"/>
+                                </constraints>
+                                <state key="normal" title="" backgroundImage="btn-prefs"/>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-974">
+                                <rect key="frame" x="226" y="30" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="SEG-my-pcf"/>
+                                    <constraint firstAttribute="height" constant="31" id="eZq-ox-taN"/>
+                                </constraints>
+                                <state key="normal" title="" backgroundImage="btn-input"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bjj-p00-853" firstAttribute="top" secondItem="v3j-a00-398" secondAttribute="bottom" constant="9" id="1ld-hc-A5l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-565" secondAttribute="trailing" constant="67" id="8Bw-hk-k5Y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ijj-j00-855" secondAttribute="trailing" constant="72" id="B6k-zt-VNj"/>
+                            <constraint firstItem="ijj-j00-855" firstAttribute="leading" secondItem="v5j-a00-398" secondAttribute="leadingMargin" constant="63" id="BGr-Y1-Gd1"/>
+                            <constraint firstItem="bjj-i00-974" firstAttribute="top" secondItem="v3j-a00-398" secondAttribute="bottom" constant="10" id="Ecr-OR-Nf7"/>
+                            <constraint firstItem="ijj-j00-855" firstAttribute="top" secondItem="ijj-P00-565" secondAttribute="bottom" constant="84" id="HlI-dx-g1n"/>
+                            <constraint firstItem="bjj-i00-782" firstAttribute="top" secondItem="v3j-a00-398" secondAttribute="bottom" constant="10" id="QIy-Jk-OcU"/>
+                            <constraint firstItem="ijj-P00-565" firstAttribute="leading" secondItem="v5j-a00-398" secondAttribute="leadingMargin" constant="69" id="bau-ZK-OzU"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b00-789" secondAttribute="centerY" id="gOC-EH-OQ5"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b00-789" secondAttribute="centerX" id="j55-y2-oL9"/>
+                            <constraint firstItem="bjj-i00-782" firstAttribute="trailing" secondItem="v5j-a00-398" secondAttribute="trailingMargin" id="oOO-I0-Aia"/>
+                            <constraint firstItem="ijj-P00-565" firstAttribute="top" secondItem="bjj-i00-974" secondAttribute="bottom" constant="88" id="rfA-h6-vDE"/>
+                            <constraint firstItem="bjj-i00-782" firstAttribute="leading" secondItem="bjj-i00-974" secondAttribute="trailing" constant="16" id="uZA-h0-hh1"/>
+                            <constraint firstItem="bjj-p00-853" firstAttribute="leading" secondItem="v5j-a00-398" secondAttribute="leadingMargin" constant="-3" id="vWv-ih-36O"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-a00-398" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v1j-r00-367">
+            <objects>
+                <viewController id="vjj-r00-367" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v3j-r00-367"/>
+                        <viewControllerLayoutGuide type="bottom" id="v4j-r00-367"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v5j-r00-367">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-788">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-784">
+                                <rect key="frame" x="85" y="149" width="152" height="135"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-m00-640">
+                                <rect key="frame" x="100" y="290" width="105" height="29"/>
+                                <state key="normal" title="" backgroundImage="def-music"/>
+                                <state key="selected" title="" backgroundImage="sel-music"/>
+                                <state key="highlighted" title="" backgroundImage="hig-music"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-740">
+                                <rect key="frame" x="100" y="239" width="110" height="29"/>
+                                <state key="normal" title="" backgroundImage="def-sound"/>
+                                <state key="selected" title="" backgroundImage="sel-sound"/>
+                                <state key="highlighted" title="" backgroundImage="hig-sound"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-PrefsstyledText" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-885">
+                                <rect key="frame" x="85" y="114" width="158" height="61"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-778">
+                                <rect key="frame" x="273" y="30" width="31" height="31"/>
+                                <state key="normal" title="" backgroundImage="btn-info"/>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-780">
+                                <rect key="frame" x="14" y="30" width="31" height="31"/>
+                                <state key="normal" title="" backgroundImage="btn-close"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-r00-367" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="340" y="0.0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v1j-n00-953">
+            <objects>
+                <viewController id="vjj-n00-953" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v3j-n00-953"/>
+                        <viewControllerLayoutGuide type="bottom" id="v4j-n00-953"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v5j-n00-953">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-920">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-921">
+                                <rect key="frame" x="85" y="149" width="152" height="135"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text display" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bgouput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-o00-971">
+                                <rect key="frame" x="14" y="279" width="291" height="182"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text input field" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bginput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-i00-967">
+                                <rect key="frame" x="14" y="90" width="291" height="119"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-949">
+                                <rect key="frame" x="92" y="218" width="136" height="31"/>
+                                <state key="normal" title="" backgroundImage="def-send"/>
+                                <state key="selected" title="" backgroundImage="sel-send"/>
+                                <state key="highlighted" title="" backgroundImage="hig-send"/>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-951">
+                                <rect key="frame" x="273" y="30" width="31" height="31"/>
+                                <state key="normal" title="" backgroundImage="btn-info"/>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-952">
+                                <rect key="frame" x="14" y="30" width="31" height="31"/>
+                                <state key="normal" title="" backgroundImage="btn-close"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-n00-953" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="680" y="0.0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v1j-n00-807">
+            <objects>
+                <viewController id="vjj-n00-807" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v3j-n00-807"/>
+                        <viewControllerLayoutGuide type="bottom" id="v4j-n00-807"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v5j-n00-807">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-bgscroll" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-786">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-809">
+                                <rect key="frame" x="85" y="149" width="152" height="135"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjj-i00-406">
+                                <rect key="frame" x="14" y="69" width="291" height="729"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.50196099999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-bgwhite" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-870">
+                                        <rect key="frame" x="0.0" y="0.0" width="291" height="729"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-T00-597">
+                                        <rect key="frame" x="16" y="48" width="249" height="252"/>
+                                        <string key="text">We develop mobile • modern • user friendly • touchable • emotional &gt;&gt;&gt; applications &gt;&gt;&gt; we produce • games • entertainment apps • interactive business applications and tools &gt;&gt;&gt; with kind regards •  the j-apps team </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="and this is text imported as text:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-T00-886">
+                                        <rect key="frame" x="16" y="20" width="239" height="13"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-792">
+                                <rect key="frame" x="14" y="30" width="31" height="31"/>
+                                <state key="normal" title="" backgroundImage="btn-close"/>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-p00-854">
+                                <rect key="frame" x="272" y="29" width="33" height="32"/>
+                                <state key="normal" title="" backgroundImage="btn-prefs"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="824"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-n00-807" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn-close" width="41" height="41"/>
+        <image name="btn-info" width="41" height="41"/>
+        <image name="btn-input" width="40" height="40"/>
+        <image name="btn-prefs" width="43" height="42"/>
+        <image name="def-music" width="136" height="37"/>
+        <image name="def-send" width="175" height="37"/>
+        <image name="def-sound" width="143" height="37"/>
+        <image name="hig-music" width="136" height="37"/>
+        <image name="hig-send" width="175" height="37"/>
+        <image name="hig-sound" width="143" height="37"/>
+        <image name="img-PSD2XCODE" width="197" height="174"/>
+        <image name="img-PrefsstyledText" width="204" height="79"/>
+        <image name="img-bggradient" width="414" height="1066"/>
+        <image name="img-bginput" width="376" height="154"/>
+        <image name="img-bgouput" width="376" height="236"/>
+        <image name="img-bgscroll" width="414" height="1066"/>
+        <image name="img-bgwhite" width="376" height="943"/>
+        <image name="img-japps" width="199" height="56"/>
+        <image name="sel-music" width="136" height="37"/>
+        <image name="sel-send" width="176" height="39"/>
+        <image name="sel-sound" width="143" height="37"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
