@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="v1j-a00-398">
             <objects>
-                <viewController id="vjj-a00-398" sceneMemberID="viewController">
+                <viewController id="vjj-a00-398" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v3j-a00-398"/>
                         <viewControllerLayoutGuide type="bottom" id="v4j-a00-398"/>
@@ -40,6 +40,9 @@
                                     <constraint firstAttribute="width" constant="31" id="x99-7e-nOe"/>
                                 </constraints>
                                 <state key="normal" title="" backgroundImage="btn-info"/>
+                                <connections>
+                                    <segue destination="vjj-n00-807" kind="modal" id="FU7-Ld-JHn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-p00-853">
                                 <rect key="frame" x="13" y="29" width="33" height="32"/>
@@ -48,6 +51,9 @@
                                     <constraint firstAttribute="height" constant="32" id="sO4-iB-PES"/>
                                 </constraints>
                                 <state key="normal" title="" backgroundImage="btn-prefs"/>
+                                <connections>
+                                    <segue destination="vjj-r00-367" kind="modal" id="dhD-Ti-CYm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-974">
                                 <rect key="frame" x="226" y="30" width="31" height="31"/>
@@ -56,6 +62,9 @@
                                     <constraint firstAttribute="height" constant="31" id="eZq-ox-taN"/>
                                 </constraints>
                                 <state key="normal" title="" backgroundImage="btn-input"/>
+                                <connections>
+                                    <segue destination="vjj-n00-953" kind="modal" id="vzc-VB-fjc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -76,6 +85,9 @@
                             <constraint firstItem="bjj-p00-853" firstAttribute="leading" secondItem="v5j-a00-398" secondAttribute="leadingMargin" constant="-3" id="vWv-ih-36O"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="logo" destination="ijj-j00-855" id="HpA-M0-VgZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-a00-398" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -84,7 +96,7 @@
         <!--View Controller-->
         <scene sceneID="v1j-r00-367">
             <objects>
-                <viewController id="vjj-r00-367" sceneMemberID="viewController">
+                <viewController id="vjj-r00-367" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v3j-r00-367"/>
                         <viewControllerLayoutGuide type="bottom" id="v4j-r00-367"/>
@@ -93,37 +105,89 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-788">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-788">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-784">
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-784">
                                 <rect key="frame" x="85" y="149" width="152" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ijj-P00-784" secondAttribute="height" multiplier="152:135" id="0Qe-QO-bwF"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-m00-640">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-m00-640">
                                 <rect key="frame" x="100" y="290" width="105" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bjj-m00-640" secondAttribute="height" multiplier="105:29" id="RTI-cC-V4j"/>
+                                </constraints>
                                 <state key="normal" title="" backgroundImage="def-music"/>
                                 <state key="selected" title="" backgroundImage="sel-music"/>
                                 <state key="highlighted" title="" backgroundImage="hig-music"/>
+                                <connections>
+                                    <action selector="slectableButton:" destination="vjj-r00-367" eventType="touchUpInside" id="8Uz-jw-rHH"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-740">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-740">
                                 <rect key="frame" x="100" y="239" width="110" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bjj-s00-740" secondAttribute="height" multiplier="110:29" id="d2l-tU-O0P"/>
+                                </constraints>
                                 <state key="normal" title="" backgroundImage="def-sound"/>
                                 <state key="selected" title="" backgroundImage="sel-sound"/>
                                 <state key="highlighted" title="" backgroundImage="hig-sound"/>
+                                <connections>
+                                    <action selector="slectableButton:" destination="vjj-r00-367" eventType="touchUpInside" id="ppO-y6-XrB"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-PrefsstyledText" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-885">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PrefsstyledText" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-885">
                                 <rect key="frame" x="85" y="114" width="158" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ijj-P00-885" secondAttribute="height" multiplier="158:61" id="vjM-P8-j0G"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-778">
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-778">
                                 <rect key="frame" x="273" y="30" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="OMi-70-bwa"/>
+                                    <constraint firstAttribute="height" constant="31" id="SxY-jr-EeZ"/>
+                                </constraints>
                                 <state key="normal" title="" backgroundImage="btn-info"/>
+                                <connections>
+                                    <segue destination="vjj-n00-807" kind="modal" id="sF5-nu-abS"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-780">
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-780">
                                 <rect key="frame" x="14" y="30" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="QnS-EQ-ybi"/>
+                                    <constraint firstAttribute="height" constant="31" id="XNW-AW-62z"/>
+                                </constraints>
                                 <state key="normal" title="" backgroundImage="btn-close"/>
+                                <connections>
+                                    <segue destination="vjj-a00-398" kind="modal" id="fSb-qY-zJP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bjj-c00-780" firstAttribute="top" secondItem="v3j-r00-367" secondAttribute="bottom" constant="10" id="0BX-am-xLw"/>
+                            <constraint firstItem="ijj-P00-784" firstAttribute="top" secondItem="v3j-r00-367" secondAttribute="bottom" constant="129" id="3ny-E1-uwt"/>
+                            <constraint firstItem="bjj-m00-640" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="84" id="4vq-zk-krf"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b00-788" secondAttribute="centerX" id="8Q7-Tz-djg"/>
+                            <constraint firstItem="bjj-m00-640" firstAttribute="top" secondItem="ijj-P00-784" secondAttribute="bottom" constant="6" id="9eY-dx-IYx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bjj-m00-640" secondAttribute="trailing" constant="99" id="HS3-g0-Q8b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bjj-s00-740" secondAttribute="trailing" constant="94" id="Hk0-DF-7tK"/>
+                            <constraint firstItem="bjj-i00-778" firstAttribute="trailing" secondItem="v5j-r00-367" secondAttribute="trailingMargin" id="Poi-DX-FSU"/>
+                            <constraint firstItem="ijj-P00-885" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="69" id="QEy-ho-Zdi"/>
+                            <constraint firstItem="bjj-s00-740" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="84" id="YQx-AE-cow"/>
+                            <constraint firstItem="ijj-P00-885" firstAttribute="top" secondItem="v3j-r00-367" secondAttribute="bottom" constant="94" id="YaK-0l-Nd7"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b00-788" secondAttribute="centerY" id="bra-VW-hLQ"/>
+                            <constraint firstItem="bjj-i00-778" firstAttribute="top" secondItem="v3j-r00-367" secondAttribute="bottom" constant="10" id="iXs-lt-hQy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-784" secondAttribute="trailing" constant="67" id="oTW-Y7-xPy"/>
+                            <constraint firstItem="bjj-c00-780" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="-2" id="tt2-LQ-uhE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-885" secondAttribute="trailing" constant="61" id="vtV-uz-UsW"/>
+                            <constraint firstItem="bjj-s00-740" firstAttribute="top" secondItem="ijj-P00-885" secondAttribute="bottom" constant="64" id="wxF-Q8-nzy"/>
+                            <constraint firstItem="ijj-P00-784" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="69" id="xiQ-zo-GoR"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-r00-367" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -133,7 +197,7 @@
         <!--View Controller-->
         <scene sceneID="v1j-n00-953">
             <objects>
-                <viewController id="vjj-n00-953" sceneMemberID="viewController">
+                <viewController id="vjj-n00-953" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v3j-n00-953"/>
                         <viewControllerLayoutGuide type="bottom" id="v4j-n00-953"/>
@@ -142,39 +206,92 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-920">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-920">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-921">
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-921">
                                 <rect key="frame" x="85" y="149" width="152" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ijj-P00-921" secondAttribute="height" multiplier="152:135" id="3if-mM-dHY"/>
+                                </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text display" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bgouput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-o00-971">
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text display" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bgouput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-o00-971">
                                 <rect key="frame" x="14" y="279" width="291" height="182"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tjj-o00-971" secondAttribute="height" multiplier="291:182" id="S4e-jz-vNo"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text input field" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bginput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-i00-967">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text input field" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bginput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-i00-967">
                                 <rect key="frame" x="14" y="90" width="291" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tjj-i00-967" secondAttribute="height" multiplier="291:119" id="0wW-6f-keJ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-949">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-949">
                                 <rect key="frame" x="92" y="218" width="136" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bjj-s00-949" secondAttribute="height" multiplier="136:31" id="K5d-Xv-qBE"/>
+                                </constraints>
                                 <state key="normal" title="" backgroundImage="def-send"/>
                                 <state key="selected" title="" backgroundImage="sel-send"/>
                                 <state key="highlighted" title="" backgroundImage="hig-send"/>
+                                <connections>
+                                    <action selector="sendTextButton:" destination="vjj-n00-953" eventType="touchUpInside" id="Wh2-gO-rQS"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-951">
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-951">
                                 <rect key="frame" x="273" y="30" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="5uZ-mG-029"/>
+                                    <constraint firstAttribute="width" constant="31" id="dPT-OS-MTJ"/>
+                                </constraints>
                                 <state key="normal" title="" backgroundImage="btn-info"/>
+                                <connections>
+                                    <segue destination="vjj-n00-807" kind="modal" id="TzM-Uy-8YL"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-952">
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-952">
                                 <rect key="frame" x="14" y="30" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="FzU-sV-oVp"/>
+                                    <constraint firstAttribute="height" constant="31" id="MFc-NE-MxP"/>
+                                </constraints>
                                 <state key="normal" title="" backgroundImage="btn-close"/>
+                                <connections>
+                                    <segue destination="vjj-a00-398" kind="modal" id="JSQ-jS-FA0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bjj-i00-951" firstAttribute="top" secondItem="v3j-n00-953" secondAttribute="bottom" constant="10" id="1CX-GU-wGZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tjj-o00-971" secondAttribute="trailing" constant="-1" id="3wA-ig-Ng8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tjj-i00-967" secondAttribute="trailing" constant="-1" id="4vu-RX-OZR"/>
+                            <constraint firstItem="ijj-P00-921" firstAttribute="top" secondItem="v3j-n00-953" secondAttribute="bottom" constant="129" id="5EU-Ho-rcW"/>
+                            <constraint firstItem="bjj-i00-951" firstAttribute="trailing" secondItem="v5j-n00-953" secondAttribute="trailingMargin" id="DHE-bW-pFR"/>
+                            <constraint firstItem="bjj-c00-952" firstAttribute="top" secondItem="v3j-n00-953" secondAttribute="bottom" constant="10" id="H4G-Gs-dlG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bjj-s00-949" secondAttribute="trailing" constant="76" id="JsU-DI-OLk"/>
+                            <constraint firstItem="bjj-s00-949" firstAttribute="top" secondItem="tjj-i00-967" secondAttribute="bottom" constant="9" id="Owr-cR-oCg"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b00-920" secondAttribute="centerY" id="TyT-gU-fmO"/>
+                            <constraint firstItem="bjj-c00-952" firstAttribute="leading" secondItem="v5j-n00-953" secondAttribute="leadingMargin" constant="-2" id="ZEu-J0-TKk"/>
+                            <constraint firstItem="tjj-i00-967" firstAttribute="leading" secondItem="v5j-n00-953" secondAttribute="leadingMargin" constant="-2" id="as7-Uu-EAq"/>
+                            <constraint firstItem="ijj-P00-921" firstAttribute="leading" secondItem="v5j-n00-953" secondAttribute="leadingMargin" constant="69" id="dHR-uq-72A"/>
+                            <constraint firstItem="tjj-i00-967" firstAttribute="top" secondItem="bjj-c00-952" secondAttribute="bottom" constant="29" id="dlm-Au-oXB"/>
+                            <constraint firstItem="tjj-o00-971" firstAttribute="top" secondItem="bjj-s00-949" secondAttribute="bottom" constant="30" id="kUk-jF-pIV"/>
+                            <constraint firstItem="bjj-s00-949" firstAttribute="leading" secondItem="v5j-n00-953" secondAttribute="leadingMargin" constant="76" id="kXd-rZ-MIA"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b00-920" secondAttribute="centerX" id="nla-jZ-QEN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-921" secondAttribute="trailing" constant="67" id="sWm-5C-tgg"/>
+                            <constraint firstItem="tjj-o00-971" firstAttribute="leading" secondItem="v5j-n00-953" secondAttribute="leadingMargin" constant="-2" id="uw4-Va-BIO"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="inputTextField" destination="tjj-i00-967" id="J03-Ci-Qm7"/>
+                        <outlet property="outputTextField" destination="tjj-o00-971" id="kN5-O0-JE9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-n00-953" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -183,7 +300,7 @@
         <!--View Controller-->
         <scene sceneID="v1j-n00-807">
             <objects>
-                <viewController id="vjj-n00-807" sceneMemberID="viewController">
+                <viewController id="vjj-n00-807" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v3j-n00-807"/>
                         <viewControllerLayoutGuide type="bottom" id="v4j-n00-807"/>
@@ -192,17 +309,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-bgscroll" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-786">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bgscroll" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-786">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-809">
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-809">
                                 <rect key="frame" x="85" y="149" width="152" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ijj-P00-809" secondAttribute="height" multiplier="152:135" id="wut-LW-GyL"/>
+                                </constraints>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjj-i00-406">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjj-i00-406">
                                 <rect key="frame" x="14" y="69" width="291" height="729"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" alpha="0.50196099999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-bgwhite" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-870">
+                                    <imageView userInteractionEnabled="NO" alpha="0.50196099999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bgwhite" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-870">
                                         <rect key="frame" x="0.0" y="0.0" width="291" height="729"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="729" id="Ogt-vf-a5m"/>
+                                        </constraints>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-T00-597">
                                         <rect key="frame" x="16" y="48" width="249" height="252"/>
@@ -218,17 +341,50 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="729" id="2XQ-0x-T2e"/>
+                                    <constraint firstItem="ijj-b00-870" firstAttribute="top" secondItem="sjj-i00-406" secondAttribute="top" id="RXL-WL-aaq"/>
+                                    <constraint firstAttribute="width" constant="291" id="cwG-Do-N7j"/>
+                                    <constraint firstItem="ijj-b00-870" firstAttribute="leading" secondItem="sjj-i00-406" secondAttribute="leading" id="deY-SE-Ej8"/>
+                                </constraints>
                             </scrollView>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-792">
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-792">
                                 <rect key="frame" x="14" y="30" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="Vz1-FM-U70"/>
+                                    <constraint firstAttribute="width" constant="31" id="cwk-fD-P3C"/>
+                                </constraints>
                                 <state key="normal" title="" backgroundImage="btn-close"/>
+                                <connections>
+                                    <segue destination="vjj-a00-398" kind="modal" id="KVY-fe-RZ9"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-p00-854">
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-p00-854">
                                 <rect key="frame" x="272" y="29" width="33" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="5lo-YN-ZdI"/>
+                                    <constraint firstAttribute="width" constant="33" id="5qa-zF-CIS"/>
+                                </constraints>
                                 <state key="normal" title="" backgroundImage="btn-prefs"/>
+                                <connections>
+                                    <segue destination="vjj-r00-367" kind="modal" id="zz0-CL-dwU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b00-786" secondAttribute="centerX" id="D9d-GF-NOo"/>
+                            <constraint firstItem="bjj-c00-792" firstAttribute="leading" secondItem="v5j-n00-807" secondAttribute="leadingMargin" constant="-2" id="E5E-Bu-Zmk"/>
+                            <constraint firstItem="sjj-i00-406" firstAttribute="top" secondItem="bjj-p00-854" secondAttribute="bottom" constant="8" id="VPp-c7-pE8"/>
+                            <constraint firstItem="bjj-p00-854" firstAttribute="top" secondItem="v3j-n00-807" secondAttribute="bottom" constant="9" id="VhG-NP-X6S"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bjj-p00-854" secondAttribute="trailing" constant="-1" id="YRe-4D-26u"/>
+                            <constraint firstItem="ijj-P00-809" firstAttribute="leading" secondItem="v5j-n00-807" secondAttribute="leadingMargin" constant="69" id="avt-d8-d5F"/>
+                            <constraint firstItem="sjj-i00-406" firstAttribute="leading" secondItem="v5j-n00-807" secondAttribute="leadingMargin" constant="-2" id="e1P-GV-rc8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-809" secondAttribute="trailing" constant="67" id="fvy-i5-NLR"/>
+                            <constraint firstItem="bjj-c00-792" firstAttribute="top" secondItem="v3j-n00-807" secondAttribute="bottom" constant="10" id="hKh-yv-poa"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b00-786" secondAttribute="centerY" id="hk4-mI-Urc"/>
+                            <constraint firstItem="ijj-P00-809" firstAttribute="top" secondItem="v3j-n00-807" secondAttribute="bottom" constant="129" id="rSS-yj-L7i"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="824"/>
@@ -266,4 +422,9 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="zz0-CL-dwU"/>
+        <segue reference="TzM-Uy-8YL"/>
+        <segue reference="KVY-fe-RZ9"/>
+    </inferredMetricsTieBreakers>
 </document>
