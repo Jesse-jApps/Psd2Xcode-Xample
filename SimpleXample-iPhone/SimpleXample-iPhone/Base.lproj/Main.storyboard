@@ -323,9 +323,6 @@
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.50196099999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bgwhite" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-870">
                                         <rect key="frame" x="0.0" y="0.0" width="291" height="729"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="729" id="Ogt-vf-a5m"/>
-                                        </constraints>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-T00-597">
                                         <rect key="frame" x="16" y="48" width="249" height="252"/>
@@ -342,10 +339,9 @@
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="729" id="2XQ-0x-T2e"/>
-                                    <constraint firstItem="ijj-b00-870" firstAttribute="top" secondItem="sjj-i00-406" secondAttribute="top" id="RXL-WL-aaq"/>
-                                    <constraint firstAttribute="width" constant="291" id="cwG-Do-N7j"/>
-                                    <constraint firstItem="ijj-b00-870" firstAttribute="leading" secondItem="sjj-i00-406" secondAttribute="leading" id="deY-SE-Ej8"/>
+                                    <constraint firstAttribute="bottom" secondItem="ijj-b00-870" secondAttribute="bottom" id="0vl-CL-bJh"/>
+                                    <constraint firstItem="ijj-b00-870" firstAttribute="leading" secondItem="sjj-i00-406" secondAttribute="leading" id="ex6-IP-DnB"/>
+                                    <constraint firstItem="ijj-b00-870" firstAttribute="top" secondItem="sjj-i00-406" secondAttribute="top" id="uEr-tX-pmc"/>
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-792">
@@ -373,17 +369,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="ijj-b00-786" secondAttribute="centerX" id="D9d-GF-NOo"/>
                             <constraint firstItem="bjj-c00-792" firstAttribute="leading" secondItem="v5j-n00-807" secondAttribute="leadingMargin" constant="-2" id="E5E-Bu-Zmk"/>
-                            <constraint firstItem="sjj-i00-406" firstAttribute="top" secondItem="bjj-p00-854" secondAttribute="bottom" constant="8" id="VPp-c7-pE8"/>
+                            <constraint firstItem="sjj-i00-406" firstAttribute="leading" secondItem="v5j-n00-807" secondAttribute="leadingMargin" constant="-2" id="Sje-Nf-SnJ"/>
                             <constraint firstItem="bjj-p00-854" firstAttribute="top" secondItem="v3j-n00-807" secondAttribute="bottom" constant="9" id="VhG-NP-X6S"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bjj-p00-854" secondAttribute="trailing" constant="-1" id="YRe-4D-26u"/>
                             <constraint firstItem="ijj-P00-809" firstAttribute="leading" secondItem="v5j-n00-807" secondAttribute="leadingMargin" constant="69" id="avt-d8-d5F"/>
-                            <constraint firstItem="sjj-i00-406" firstAttribute="leading" secondItem="v5j-n00-807" secondAttribute="leadingMargin" constant="-2" id="e1P-GV-rc8"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b00-786" secondAttribute="centerX" id="fKu-M8-yqY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-809" secondAttribute="trailing" constant="67" id="fvy-i5-NLR"/>
                             <constraint firstItem="bjj-c00-792" firstAttribute="top" secondItem="v3j-n00-807" secondAttribute="bottom" constant="10" id="hKh-yv-poa"/>
-                            <constraint firstAttribute="centerY" secondItem="ijj-b00-786" secondAttribute="centerY" id="hk4-mI-Urc"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b00-786" secondAttribute="centerY" id="hVi-aK-ubT"/>
+                            <constraint firstItem="v4j-n00-807" firstAttribute="top" secondItem="sjj-i00-406" secondAttribute="bottom" constant="26" id="pyQ-0U-4GS"/>
+                            <constraint firstItem="sjj-i00-406" firstAttribute="top" secondItem="bjj-p00-854" secondAttribute="bottom" constant="8" id="qJk-MP-y65"/>
                             <constraint firstItem="ijj-P00-809" firstAttribute="top" secondItem="v3j-n00-807" secondAttribute="bottom" constant="129" id="rSS-yj-L7i"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sjj-i00-406" secondAttribute="trailing" constant="-1" id="vqO-vg-dL5"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -423,8 +421,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="zz0-CL-dwU"/>
-        <segue reference="TzM-Uy-8YL"/>
         <segue reference="KVY-fe-RZ9"/>
+        <segue reference="TzM-Uy-8YL"/>
+        <segue reference="zz0-CL-dwU"/>
     </inferredMetricsTieBreakers>
 </document>
