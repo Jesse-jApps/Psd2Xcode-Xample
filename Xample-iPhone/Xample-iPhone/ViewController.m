@@ -21,6 +21,14 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+	
+	if (_inputTextField) {
+		UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:_inputTextField action:@selector(resignFirstResponder)];
+		UIToolbar *toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
+		toolbar.items = [NSArray arrayWithObject:barButton];
+		
+		_inputTextField.inputAccessoryView = toolbar;
+	}
 }
 
 - (void)viewDidAppear:(BOOL)animated
