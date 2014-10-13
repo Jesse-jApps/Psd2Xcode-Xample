@@ -10,6 +10,9 @@
 		886861D919EBFABB00D7C368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 886861D419EBFABB00D7C368 /* AppDelegate.m */; };
 		886861DA19EBFABB00D7C368 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886861D519EBFABB00D7C368 /* ViewController.m */; };
 		886861E519EBFADE00D7C368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 886861E319EBFADE00D7C368 /* main.m */; };
+		886861EA19EC044400D7C368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886861DB19EBFAC600D7C368 /* Main.storyboard */; };
+		886861EB19EC044600D7C368 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886861DD19EBFAC600D7C368 /* LaunchScreen.xib */; };
+		886861EC19EC044800D7C368 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886861D319EBFABB00D7C368 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,6 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886861EA19EC044400D7C368 /* Main.storyboard in Resources */,
+				886861EB19EC044600D7C368 /* LaunchScreen.xib in Resources */,
+				886861EC19EC044800D7C368 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

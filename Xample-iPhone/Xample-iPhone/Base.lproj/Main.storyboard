@@ -215,7 +215,7 @@
                                     <constraint firstAttribute="width" secondItem="ijj-P00-921" secondAttribute="height" multiplier="152:135" id="3if-mM-dHY"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text display" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bgouput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-o00-971">
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" placeholder="text display" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bgouput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-o00-971">
                                 <rect key="frame" x="14" y="279" width="291" height="182"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tjj-o00-971" secondAttribute="height" multiplier="291:182" id="S4e-jz-vNo"/>
@@ -223,7 +223,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text input field" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bginput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-i00-967">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" placeholder="text input field" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bginput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-i00-967">
                                 <rect key="frame" x="14" y="90" width="291" height="119"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tjj-i00-967" secondAttribute="height" multiplier="291:119" id="0wW-6f-keJ"/>
@@ -421,8 +421,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="KVY-fe-RZ9"/>
         <segue reference="TzM-Uy-8YL"/>
+        <segue reference="JSQ-jS-FA0"/>
         <segue reference="zz0-CL-dwU"/>
     </inferredMetricsTieBreakers>
 </document>
