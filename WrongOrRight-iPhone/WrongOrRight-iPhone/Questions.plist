@@ -6,77 +6,77 @@
 	<array>
 		<dict>
 			<key>question</key>
-			<string></string>
+			<string>Psd2Xcode supports all ScreenSizes</string>
 			<key>answer</key>
-			<string></string>
+			<string>YES</string>
 			<key>wrong</key>
 			<false/>
 		</dict>
 		<dict>
 			<key>question</key>
-			<string></string>
+			<string>The AppIcon is not supported by Psd2Xcode</string>
 			<key>answer</key>
-			<string></string>
+			<string>No, it is! Just add it to your PSD!</string>
 			<key>wrong</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>question</key>
-			<string></string>
+			<string>Apples are always green!</string>
 			<key>answer</key>
-			<string></string>
+			<string>Sometimes they are also pruple!</string>
 			<key>wrong</key>
-			<false/>
+			<true/>
 		</dict>
 	</array>
 	<key>Level2</key>
 	<array>
 		<dict>
 			<key>question</key>
-			<string></string>
+			<string>Everytime you use Psd2Xcode changes you made in Xcode will be lost!</string>
 			<key>answer</key>
-			<string></string>
+			<string>Psd2Xcode keeps all Seagues, Constraints and additionall Buttons you added in Xcode, while updating the design.</string>
+			<key>wrong</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>iPhone6 Plus is supported by Psd2Xcode</string>
+			<key>answer</key>
+			<string>Yes indeed!</string>
 			<key>wrong</key>
 			<false/>
 		</dict>
 		<dict>
 			<key>question</key>
-			<string></string>
+			<string>The first App by j-apps was jemory4kids</string>
 			<key>answer</key>
-			<string></string>
+			<string>No, it was jMagic!</string>
 			<key>wrong</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>question</key>
-			<string></string>
-			<key>answer</key>
-			<string></string>
-			<key>wrong</key>
-			<false/>
+			<true/>
 		</dict>
 	</array>
 	<key>Level3</key>
 	<array>
 		<dict>
 			<key>question</key>
-			<string></string>
+			<string>j-apps only develops games</string>
 			<key>answer</key>
-			<string></string>
+			<string>We also created joking and Widse and of course Psd2Xcode</string>
+			<key>wrong</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Psd2Xcode is also able to generate a UINavigationController</string>
+			<key>answer</key>
+			<string>Yupp!</string>
 			<key>wrong</key>
 			<false/>
 		</dict>
 		<dict>
 			<key>question</key>
-			<string></string>
-			<key>answer</key>
-			<string></string>
-			<key>wrong</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>question</key>
-			<string></string>
+			<string>Everything is relative!</string>
 			<key>answer</key>
 			<string></string>
 			<key>wrong</key>

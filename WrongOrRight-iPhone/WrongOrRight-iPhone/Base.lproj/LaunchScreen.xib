@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -10,19 +11,25 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bg1" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-005">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bg1" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-005">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="569"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-logo" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-l00-007">
-                    <rect key="frame" x="41" y="157" width="240" height="206"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-logo" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-l00-767">
+                    <rect key="frame" x="54" y="162" width="214" height="184"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ijj-l00-767" secondAttribute="height" multiplier="107:92" id="CrO-SX-eKV"/>
+                    </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="ijj-l00-007" secondAttribute="centerY" id="1ll-TW-hy2"/>
-                <constraint firstAttribute="centerY" secondItem="ijj-b00-005" secondAttribute="centerY" id="fm3-Od-cCw"/>
-                <constraint firstAttribute="centerX" secondItem="ijj-b00-005" secondAttribute="centerX" id="hLD-FZ-Pth"/>
-                <constraint firstAttribute="centerX" secondItem="ijj-l00-007" secondAttribute="centerX" id="lC4-qa-OaS"/>
+                <constraint firstItem="ijj-b00-005" firstAttribute="leading" secondItem="ljj-a00-003" secondAttribute="leading" id="4hC-aY-TvI"/>
+                <constraint firstItem="ijj-b00-005" firstAttribute="top" secondItem="ljj-a00-003" secondAttribute="top" id="9Ch-d5-aci"/>
+                <constraint firstItem="ijj-l00-767" firstAttribute="top" secondItem="ljj-a00-003" secondAttribute="top" constant="162" id="MfJ-3M-ecq"/>
+                <constraint firstAttribute="bottom" secondItem="ijj-b00-005" secondAttribute="bottom" constant="-1" id="NIz-d9-PZi"/>
+                <constraint firstAttribute="trailing" secondItem="ijj-b00-005" secondAttribute="trailing" id="raT-qE-Cvj"/>
+                <constraint firstItem="ijj-l00-767" firstAttribute="leading" secondItem="ljj-a00-003" secondAttribute="leading" constant="54" id="xqr-Fl-IzV"/>
+                <constraint firstAttribute="trailing" secondItem="ijj-l00-767" secondAttribute="trailing" constant="52" id="y3j-xc-T0F"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -31,6 +38,6 @@
     </objects>
     <resources>
         <image name="img-bg1" width="414" height="737"/>
-        <image name="img-logo" width="311" height="267"/>
+        <image name="img-logo" width="277" height="239"/>
     </resources>
 </document>
