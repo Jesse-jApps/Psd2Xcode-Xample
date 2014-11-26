@@ -31,6 +31,8 @@
 	sender.selected = !sender.selected;
 	
 	[AudioPlayer sharedPlayer].musicOn = sender.selected;
+	if (sender.selected)
+		[[AudioPlayer sharedPlayer] playButtonSound];
 }
 
 - (IBAction)triggerSoundControll:(UIButton *)sender
@@ -38,6 +40,8 @@
 	sender.selected = !sender.selected;
 	
 	[AudioPlayer sharedPlayer].soundOn = sender.selected;
+	if (sender.selected)
+		[[AudioPlayer sharedPlayer] playButtonSound];
 }
 
 @end
