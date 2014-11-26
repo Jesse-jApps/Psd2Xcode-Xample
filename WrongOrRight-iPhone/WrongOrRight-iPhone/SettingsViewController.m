@@ -28,20 +28,20 @@
 
 - (IBAction)triggerMusicControll:(UIButton *)sender
 {
+	[[AudioPlayer sharedPlayer] playButtonSound];
+	
 	sender.selected = !sender.selected;
 	
 	[AudioPlayer sharedPlayer].musicOn = sender.selected;
-	[[AudioPlayer sharedPlayer] playButtonSound];
-	
 }
 
 - (IBAction)triggerSoundControll:(UIButton *)sender
 {
+	[[AudioPlayer sharedPlayer] playButtonSound];
+	
 	sender.selected = !sender.selected;
 	
 	[AudioPlayer sharedPlayer].soundOn = sender.selected;
-	[[AudioPlayer sharedPlayer] playButtonSound];
-	
 }
 
 @end

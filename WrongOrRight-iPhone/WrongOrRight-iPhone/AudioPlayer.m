@@ -67,8 +67,7 @@ static AudioPlayer *_sharedPlayer;
 
 - (void)playButtonSound
 {
-	if (_soundOn)
-		[_btnPlayer play];
+	[_btnPlayer play];
 }
 
 - (void)playRightSound
