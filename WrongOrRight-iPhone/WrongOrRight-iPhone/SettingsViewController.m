@@ -44,4 +44,11 @@
 	[AudioPlayer sharedPlayer].soundOn = sender.selected;
 }
 
+- (IBAction)openJapps:(id)sender
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.j-apps.com"]];
+
+}
+
+
 @end
