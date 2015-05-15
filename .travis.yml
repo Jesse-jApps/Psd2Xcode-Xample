@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: Xample-iPhone/Xample-iPhone.xcodeproj # path to your xcodeproj folder
+
