@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vjj-t00-023">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="v1j-t00-023">
+            <objects>
+                <viewController id="vjj-t00-023" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v3j-t00-023"/>
+                        <viewControllerLayoutGuide type="bottom" id="v4j-t00-023"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v5j-t00-023">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bg1" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-021">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-p00-027">
+                                <rect key="frame" x="23" y="22" width="39" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="CXx-RS-Yvs"/>
+                                    <constraint firstAttribute="height" constant="39" id="nvn-9N-spJ"/>
+                                </constraints>
+                                <state key="normal" title="" backgroundImage="btn-prefs"/>
+                                <connections>
+                                    <segue destination="vjj-e00-032" kind="modal" id="FOY-Km-9Pf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELLO" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-H00-026">
+                                <rect key="frame" x="170" y="109" width="229" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="229" id="0lF-CL-sgm"/>
+                                    <constraint firstAttribute="height" constant="102" id="bLI-Ia-yMU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="68"/>
+                                <color key="textColor" red="2.0000000000000002e-05" green="8.0000000000000007e-05" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b00-021" secondAttribute="centerY" id="2wi-nJ-uXt"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b00-021" secondAttribute="centerX" id="HRd-Yj-Ig7"/>
+                            <constraint firstAttribute="centerX" secondItem="tjj-H00-026" secondAttribute="centerX" id="QiM-8D-vRI"/>
+                            <constraint firstItem="bjj-p00-027" firstAttribute="leading" secondItem="v5j-t00-023" secondAttribute="leadingMargin" constant="7" id="tOC-Ma-Dlv"/>
+                            <constraint firstAttribute="centerY" secondItem="tjj-H00-026" secondAttribute="centerY" id="xSW-nK-TGl"/>
+                            <constraint firstItem="bjj-p00-027" firstAttribute="top" secondItem="v3j-t00-023" secondAttribute="bottom" constant="2" id="ySt-3J-1hm"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-t00-023" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v1j-e00-032">
+            <objects>
+                <viewController id="vjj-e00-032" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v3j-e00-032"/>
+                        <viewControllerLayoutGuide type="bottom" id="v4j-e00-032"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v5j-e00-032">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bg2" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-029">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-S00-045">
+                                <rect key="frame" x="159" y="87" width="249" height="181"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="181" id="UmU-FY-TeO"/>
+                                    <constraint firstAttribute="width" constant="249" id="yyr-U6-6He"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</string>
+                                <fontDescription key="fontDescription" name="ArialMT" family="ArialMT" pointSize="16"/>
+                                <color key="textColor" red="1" green="2.0000000000000002e-05" blue="0.00011" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-Settings" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-S00-030">
+                                <rect key="frame" x="217" y="31" width="132" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="D9I-sj-1mJ"/>
+                                    <constraint firstAttribute="height" constant="33" id="J58-7O-Xue"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-033">
+                                <rect key="frame" x="22" y="22" width="41" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="iun-Dg-xNY"/>
+                                    <constraint firstAttribute="height" constant="41" id="tD5-Vc-4AD"/>
+                                </constraints>
+                                <state key="normal" title="" backgroundImage="btn-close"/>
+                                <connections>
+                                    <segue destination="vjj-t00-023" kind="modal" id="8E2-H1-CUB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tjj-S00-045" firstAttribute="top" secondItem="ijj-S00-030" secondAttribute="bottom" constant="23" id="02g-AF-9HD"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b00-029" secondAttribute="centerX" id="3M6-uB-ydp"/>
+                            <constraint firstAttribute="centerX" secondItem="tjj-S00-045" secondAttribute="centerX" id="Ac9-zT-9xE"/>
+                            <constraint firstItem="bjj-c00-033" firstAttribute="top" secondItem="v3j-e00-032" secondAttribute="bottom" constant="2" id="IXv-VH-VpL"/>
+                            <constraint firstItem="ijj-S00-030" firstAttribute="top" secondItem="v3j-e00-032" secondAttribute="bottom" constant="11" id="RqO-ZO-vTs"/>
+                            <constraint firstItem="bjj-c00-033" firstAttribute="leading" secondItem="v5j-e00-032" secondAttribute="leadingMargin" constant="6" id="b5j-6t-aT5"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b00-029" secondAttribute="centerY" id="lef-ta-OWe"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-S00-030" secondAttribute="centerX" id="yxk-bt-J1e"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-e00-032" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="588" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn-close" width="53" height="53"/>
+        <image name="btn-prefs" width="51" height="51"/>
+        <image name="img-Settings" width="171" height="43"/>
+        <image name="img-bg1" width="736" height="414"/>
+        <image name="img-bg2" width="736" height="414"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
