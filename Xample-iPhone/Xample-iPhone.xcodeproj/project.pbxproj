@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		882E8D6F1B3EEB7600127A50 /* Xample.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Xample.psd; sourceTree = "<group>"; };
 		8845B39219EA859F0057C8EC /* Xample-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xample-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8845B3AB19EA859F0057C8EC /* Xample-iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xample-iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886861D319EBFABB00D7C368 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Xample-iPhone/Images.xcassets"; sourceTree = "<group>"; };
@@ -59,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		882E8D6E1B3EEB6A00127A50 /* PSD */ = {
+			isa = PBXGroup;
+			children = (
+				882E8D6F1B3EEB7600127A50 /* Xample.psd */,
+			);
+			name = PSD;
+			sourceTree = "<group>";
+		};
 		8845B38919EA859F0057C8EC = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +107,7 @@
 		886861D219EBFAA600D7C368 /* Xample-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				882E8D6E1B3EEB6A00127A50 /* PSD */,
 				886861D619EBFABB00D7C368 /* AppDelegate.h */,
 				886861D419EBFABB00D7C368 /* AppDelegate.m */,
 				886861D719EBFABB00D7C368 /* ViewController.h */,

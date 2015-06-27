@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		882E8D6D1B3EEB5B00127A50 /* wrongorrightFINAL.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrongorrightFINAL.psd; sourceTree = SOURCE_ROOT; };
 		88764B331A165351009BAD98 /* WrongOrRight-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WrongOrRight-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88764B371A165351009BAD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88764B381A165351009BAD98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		882E8D6B1B3EEB2A00127A50 /* PSD */ = {
+			isa = PBXGroup;
+			children = (
+				882E8D6D1B3EEB5B00127A50 /* wrongorrightFINAL.psd */,
+			);
+			name = PSD;
+			sourceTree = "<group>";
+		};
 		88764B2A1A165350009BAD98 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +124,7 @@
 		88764B351A165351009BAD98 /* WrongOrRight-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				882E8D6B1B3EEB2A00127A50 /* PSD */,
 				88C262A31A1D0A480062AA21 /* Resources */,
 				88764B5C1A165403009BAD98 /* ViewController */,
 				88764B6C1A165748009BAD98 /* Data */,
