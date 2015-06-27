@@ -4,6 +4,8 @@ Psd2Xcode-Xample
 ## Overview
 This Repository provides projects for Psd2Xcode. Each project contains a PSD file that was used to generate the Storyboard, LaunchImage, App-Icon and all necessary imageassets.
 
+For more informations visit [Psd2Xcode](http://j-apps.com/psd2xcode) or see the complete documentation here [Documentation](http://j-apps.com/psd2xcode/Documentation.html)
+
 ## Xample Projects
 
 ### Xample-iPhone
@@ -17,8 +19,6 @@ To show that it's also no problem in landscape orientation.
 ### WrongOrRight-iPhone
 
 A little game that is completely based on one PSD file.
-
-For more informations visit [Psd2Xcode](http://j-apps.com/psd2xcode) or see the complete documentation here [Documentation](http://j-apps.com/psd2xcode/Documentation.html)
 
 ## License
 
