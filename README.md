@@ -2,13 +2,17 @@ Psd2Xcode-Xample
 ================
 
 ## Overview
-This Repository provides example files and projects for Psd2Xcode. Each project folder has a PSD-folder where you can find the PSD-File that was used to generate the Storyboard, LaunchImage, App-Icon and all necessary imageassets. 
+This Repository provides projects for Psd2Xcode. Each project contains a PSD file that was used to generate the Storyboard, LaunchImage, App-Icon and all necessary imageassets.
 
 ## Xample Projects
 
-### Simple iPhone
+### Xample-iPhone
 
-Checkout SimpleXample-iPhone folder to find a simple example of what you can achieve with **Psd2Xcode**.
+A simple Xample to illustrate the basic features that **Psd2Xcode** provides.
+
+### WrongOrRight-iPhone
+
+A little game that is completely based on one PSD file.
 
 For more informations visit [Psd2Xcode](http://j-apps.com/psd2xcode) or see the complete documentation here [Documentation](http://j-apps.com/psd2xcode/Documentation.html)
 
