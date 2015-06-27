@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -11,32 +10,34 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-790">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bg_blue" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b01-046">
+                    <rect key="frame" x="-7" y="-12" width="352" height="592"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-662">
-                    <rect key="frame" x="85" y="149" width="152" height="135"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P01-207">
+                    <rect key="frame" x="85" y="155" width="152" height="128"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="ijj-P00-662" secondAttribute="height" multiplier="152:135" id="5zC-7n-7FP"/>
+                        <constraint firstAttribute="width" constant="152" id="Dv1-Wo-QNN"/>
+                        <constraint firstAttribute="height" constant="128" id="wN1-GG-lUT"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-japps20" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-j00-563">
-                    <rect key="frame" x="79" y="368" width="153" height="43"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-japps20" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-j01-205">
+                    <rect key="frame" x="81" y="368" width="149" height="43"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="ijj-j00-563" secondAttribute="height" multiplier="153:43" id="Qve-lg-sNl"/>
+                        <constraint firstAttribute="width" constant="149" id="E49-aP-JL5"/>
+                        <constraint firstAttribute="height" constant="43" id="p5B-e0-WVh"/>
                     </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="ijj-P00-662" firstAttribute="leading" secondItem="ljj-a00-089" secondAttribute="leading" constant="85" id="0tW-yb-ubC"/>
-                <constraint firstItem="ijj-j00-563" firstAttribute="leading" secondItem="ljj-a00-089" secondAttribute="leading" constant="79" id="8Ez-CY-yiY"/>
-                <constraint firstAttribute="trailing" secondItem="ijj-j00-563" secondAttribute="trailing" constant="88" id="8nQ-Qi-bg0"/>
-                <constraint firstItem="ijj-j00-563" firstAttribute="top" secondItem="ijj-P00-662" secondAttribute="bottom" constant="84" id="DJj-T2-pza"/>
-                <constraint firstAttribute="centerX" secondItem="ijj-b00-790" secondAttribute="centerX" id="OQy-td-G5i"/>
-                <constraint firstItem="ijj-P00-662" firstAttribute="top" secondItem="ljj-a00-089" secondAttribute="top" constant="149" id="PxO-Rh-pWf"/>
-                <constraint firstAttribute="trailing" secondItem="ijj-P00-662" secondAttribute="trailing" constant="83" id="RtJ-8j-yqn"/>
-                <constraint firstAttribute="centerY" secondItem="ijj-b00-790" secondAttribute="centerY" id="kfl-W9-6D6"/>
+                <constraint firstItem="ijj-P01-207" firstAttribute="top" secondItem="ljj-a00-089" secondAttribute="top" constant="155" id="2xc-YJ-oGd"/>
+                <constraint firstItem="ijj-j01-205" firstAttribute="top" secondItem="ijj-P01-207" secondAttribute="bottom" constant="85" id="5UH-1Q-dtf"/>
+                <constraint firstAttribute="centerX" secondItem="ijj-P01-207" secondAttribute="centerX" id="60k-32-5dx"/>
+                <constraint firstAttribute="centerX" secondItem="ijj-j01-205" secondAttribute="centerX" id="8KH-az-tbl"/>
+                <constraint firstAttribute="centerY" secondItem="ijj-b01-046" secondAttribute="centerY" id="TZB-BP-Mfo"/>
+                <constraint firstAttribute="centerY" secondItem="ijj-b01-046" secondAttribute="centerY" id="XC8-wE-9Zo"/>
+                <constraint firstAttribute="centerX" secondItem="ijj-b01-046" secondAttribute="centerX" id="x9u-M3-Ez0"/>
+                <constraint firstAttribute="centerX" secondItem="ijj-b01-046" secondAttribute="centerX" id="xtV-Is-RPU"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -44,8 +45,8 @@
         </view>
     </objects>
     <resources>
-        <image name="img-PSD2XCODE" width="197" height="174"/>
-        <image name="img-bggradient" width="414" height="1066"/>
-        <image name="img-japps20" width="199" height="56"/>
+        <image name="img-PSD2XCODE" width="197" height="166"/>
+        <image name="img-bg_blue" width="456" height="767"/>
+        <image name="img-japps20" width="193" height="55"/>
     </resources>
 </document>

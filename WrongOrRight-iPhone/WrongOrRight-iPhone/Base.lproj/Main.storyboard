@@ -460,7 +460,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="740"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjj-l00-290">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjj-l00-290">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="741"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-bglevels" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-239">
@@ -473,7 +473,7 @@
                                             <constraint firstAttribute="width" constant="122" id="U7J-7j-Lbf"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-l00-287">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-l00-287">
                                         <rect key="frame" x="58" y="517" width="79" height="79"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="79" id="RFd-e2-yx8"/>
@@ -793,8 +793,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="whc-uA-asy"/>
         <segue reference="bEr-wj-FiU"/>
-        <segue reference="KzP-W8-t30"/>
+        <segue reference="ZRN-CO-1e3"/>
+        <segue reference="whc-uA-asy"/>
     </inferredMetricsTieBreakers>
 </document>

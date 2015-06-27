@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vjj-a00-398">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vjj-a00-398">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -18,20 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-789">
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-789">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-565">
-                                <rect key="frame" x="85" y="149" width="152" height="135"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bg_blue" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b01-047">
+                                <rect key="frame" x="-7" y="-12" width="352" height="592"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-PSD2XCODE4" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-565">
+                                <rect key="frame" x="95" y="161" width="132" height="112"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ijj-P00-565" secondAttribute="height" multiplier="152:135" id="Pol-8w-du0"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-japps" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-j00-855">
-                                <rect key="frame" x="79" y="368" width="153" height="43"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="ijj-j00-855" secondAttribute="height" multiplier="153:43" id="IsO-eK-pDL"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="img-japps" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-j01-206">
+                                <rect key="frame" x="81" y="368" width="149" height="43"/>
                             </imageView>
                             <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-782">
                                 <rect key="frame" x="273" y="30" width="31" height="31"/>
@@ -70,14 +70,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bjj-p00-853" firstAttribute="top" secondItem="v3j-a00-398" secondAttribute="bottom" constant="9" id="1ld-hc-A5l"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b01-047" secondAttribute="centerY" id="6Fu-cc-eTi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-565" secondAttribute="trailing" constant="67" id="8Bw-hk-k5Y"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ijj-j00-855" secondAttribute="trailing" constant="72" id="B6k-zt-VNj"/>
-                            <constraint firstItem="ijj-j00-855" firstAttribute="leading" secondItem="v5j-a00-398" secondAttribute="leadingMargin" constant="63" id="BGr-Y1-Gd1"/>
                             <constraint firstItem="bjj-i00-974" firstAttribute="top" secondItem="v3j-a00-398" secondAttribute="bottom" constant="10" id="Ecr-OR-Nf7"/>
-                            <constraint firstItem="ijj-j00-855" firstAttribute="top" secondItem="ijj-P00-565" secondAttribute="bottom" constant="84" id="HlI-dx-g1n"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-j01-206" secondAttribute="centerX" id="NG8-7U-hlz"/>
                             <constraint firstItem="bjj-i00-782" firstAttribute="top" secondItem="v3j-a00-398" secondAttribute="bottom" constant="10" id="QIy-Jk-OcU"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b01-047" secondAttribute="centerX" id="SOR-rF-Ptc"/>
                             <constraint firstItem="ijj-P00-565" firstAttribute="leading" secondItem="v5j-a00-398" secondAttribute="leadingMargin" constant="69" id="bau-ZK-OzU"/>
                             <constraint firstAttribute="centerY" secondItem="ijj-b00-789" secondAttribute="centerY" id="gOC-EH-OQ5"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-P00-565" secondAttribute="centerX" id="gVn-p8-lV3"/>
                             <constraint firstAttribute="centerX" secondItem="ijj-b00-789" secondAttribute="centerX" id="j55-y2-oL9"/>
                             <constraint firstItem="bjj-i00-782" firstAttribute="trailing" secondItem="v5j-a00-398" secondAttribute="trailingMargin" id="oOO-I0-Aia"/>
                             <constraint firstItem="ijj-P00-565" firstAttribute="top" secondItem="bjj-i00-974" secondAttribute="bottom" constant="88" id="rfA-h6-vDE"/>
@@ -85,9 +86,6 @@
                             <constraint firstItem="bjj-p00-853" firstAttribute="leading" secondItem="v5j-a00-398" secondAttribute="leadingMargin" constant="-3" id="vWv-ih-36O"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="logo" destination="ijj-j00-855" id="HpA-M0-VgZ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-a00-398" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -105,20 +103,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-788">
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-788">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-784">
-                                <rect key="frame" x="85" y="149" width="152" height="135"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="ijj-P00-784" secondAttribute="height" multiplier="152:135" id="0Qe-QO-bwF"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggrey" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b01-070">
+                                <rect key="frame" x="-7" y="-12" width="352" height="592"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-m00-640">
-                                <rect key="frame" x="100" y="290" width="105" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="bjj-m00-640" secondAttribute="height" multiplier="105:29" id="RTI-cC-V4j"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-PSD2XCODE5" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P01-210">
+                                <rect key="frame" x="85" y="352" width="152" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-m00-640">
+                                <rect key="frame" x="102" y="290" width="114" height="29"/>
                                 <state key="normal" title="" backgroundImage="def-music"/>
                                 <state key="selected" title="" backgroundImage="sel-music"/>
                                 <state key="highlighted" title="" backgroundImage="hig-music"/>
@@ -126,11 +121,8 @@
                                     <action selector="slectableButton:" destination="vjj-r00-367" eventType="touchUpInside" id="8Uz-jw-rHH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-740">
-                                <rect key="frame" x="100" y="239" width="110" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="bjj-s00-740" secondAttribute="height" multiplier="110:29" id="d2l-tU-O0P"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-740">
+                                <rect key="frame" x="102" y="239" width="113" height="29"/>
                                 <state key="normal" title="" backgroundImage="def-sound"/>
                                 <state key="selected" title="" backgroundImage="sel-sound"/>
                                 <state key="highlighted" title="" backgroundImage="hig-sound"/>
@@ -139,9 +131,9 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PrefsstyledText" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-885">
-                                <rect key="frame" x="85" y="114" width="158" height="61"/>
+                                <rect key="frame" x="67.5" y="105" width="185" height="107"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="ijj-P00-885" secondAttribute="height" multiplier="158:61" id="vjM-P8-j0G"/>
+                                    <constraint firstAttribute="width" secondItem="ijj-P00-885" secondAttribute="height" multiplier="71:41" id="a3S-nS-1gK"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-i00-778">
@@ -170,23 +162,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bjj-c00-780" firstAttribute="top" secondItem="v3j-r00-367" secondAttribute="bottom" constant="10" id="0BX-am-xLw"/>
-                            <constraint firstItem="ijj-P00-784" firstAttribute="top" secondItem="v3j-r00-367" secondAttribute="bottom" constant="129" id="3ny-E1-uwt"/>
-                            <constraint firstItem="bjj-m00-640" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="84" id="4vq-zk-krf"/>
                             <constraint firstAttribute="centerX" secondItem="ijj-b00-788" secondAttribute="centerX" id="8Q7-Tz-djg"/>
-                            <constraint firstItem="bjj-m00-640" firstAttribute="top" secondItem="ijj-P00-784" secondAttribute="bottom" constant="6" id="9eY-dx-IYx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="bjj-m00-640" secondAttribute="trailing" constant="99" id="HS3-g0-Q8b"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="bjj-s00-740" secondAttribute="trailing" constant="94" id="Hk0-DF-7tK"/>
+                            <constraint firstAttribute="centerX" secondItem="bjj-s00-740" secondAttribute="centerX" id="D7v-bj-xKY"/>
+                            <constraint firstItem="bjj-s00-740" firstAttribute="top" secondItem="ijj-P00-885" secondAttribute="bottom" constant="27" id="M7K-Ga-nU5"/>
                             <constraint firstItem="bjj-i00-778" firstAttribute="trailing" secondItem="v5j-r00-367" secondAttribute="trailingMargin" id="Poi-DX-FSU"/>
-                            <constraint firstItem="ijj-P00-885" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="69" id="QEy-ho-Zdi"/>
-                            <constraint firstItem="bjj-s00-740" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="84" id="YQx-AE-cow"/>
-                            <constraint firstItem="ijj-P00-885" firstAttribute="top" secondItem="v3j-r00-367" secondAttribute="bottom" constant="94" id="YaK-0l-Nd7"/>
                             <constraint firstAttribute="centerY" secondItem="ijj-b00-788" secondAttribute="centerY" id="bra-VW-hLQ"/>
+                            <constraint firstItem="ijj-P00-885" firstAttribute="top" secondItem="v3j-r00-367" secondAttribute="bottom" constant="85" id="eHJ-77-sAP"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b01-070" secondAttribute="centerY" id="fQ8-DZ-Xsf"/>
                             <constraint firstItem="bjj-i00-778" firstAttribute="top" secondItem="v3j-r00-367" secondAttribute="bottom" constant="10" id="iXs-lt-hQy"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-784" secondAttribute="trailing" constant="67" id="oTW-Y7-xPy"/>
+                            <constraint firstItem="bjj-m00-640" firstAttribute="width" secondItem="bjj-s00-740" secondAttribute="height" multiplier="114:29" id="koG-ac-jPy"/>
+                            <constraint firstItem="bjj-m00-640" firstAttribute="top" secondItem="bjj-s00-740" secondAttribute="bottom" constant="22" id="mIS-WQ-Yrq"/>
+                            <constraint firstAttribute="centerX" secondItem="bjj-m00-640" secondAttribute="centerX" id="ovq-Lf-vZ2"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-P00-885" secondAttribute="centerX" id="r4N-MN-SSq"/>
                             <constraint firstItem="bjj-c00-780" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="-2" id="tt2-LQ-uhE"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-885" secondAttribute="trailing" constant="61" id="vtV-uz-UsW"/>
-                            <constraint firstItem="bjj-s00-740" firstAttribute="top" secondItem="ijj-P00-885" secondAttribute="bottom" constant="64" id="wxF-Q8-nzy"/>
-                            <constraint firstItem="ijj-P00-784" firstAttribute="leading" secondItem="v5j-r00-367" secondAttribute="leadingMargin" constant="69" id="xiQ-zo-GoR"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b01-070" secondAttribute="centerX" id="zEf-J0-0yK"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -209,13 +198,16 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggradient" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-920">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bggrey" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b01-071">
+                                <rect key="frame" x="-7" y="-12" width="352" height="592"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-921">
                                 <rect key="frame" x="85" y="149" width="152" height="135"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ijj-P00-921" secondAttribute="height" multiplier="152:135" id="3if-mM-dHY"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" placeholder="text display" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bgouput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-o00-971">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text display" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bgouput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-o00-971">
                                 <rect key="frame" x="14" y="279" width="291" height="182"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tjj-o00-971" secondAttribute="height" multiplier="291:182" id="S4e-jz-vNo"/>
@@ -223,7 +215,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" placeholder="text input field" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bginput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-i00-967">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="text input field" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-bginput" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-i00-967">
                                 <rect key="frame" x="14" y="90" width="291" height="119"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tjj-i00-967" secondAttribute="height" multiplier="291:119" id="0wW-6f-keJ"/>
@@ -231,8 +223,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-949">
-                                <rect key="frame" x="92" y="218" width="136" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-949">
+                                <rect key="frame" x="92" y="225" width="136" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bjj-s00-949" secondAttribute="height" multiplier="136:31" id="K5d-Xv-qBE"/>
                                 </constraints>
@@ -276,9 +268,11 @@
                             <constraint firstItem="bjj-c00-952" firstAttribute="top" secondItem="v3j-n00-953" secondAttribute="bottom" constant="10" id="H4G-Gs-dlG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bjj-s00-949" secondAttribute="trailing" constant="76" id="JsU-DI-OLk"/>
                             <constraint firstItem="bjj-s00-949" firstAttribute="top" secondItem="tjj-i00-967" secondAttribute="bottom" constant="9" id="Owr-cR-oCg"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b01-071" secondAttribute="centerY" id="RCn-Uk-m8f"/>
                             <constraint firstAttribute="centerY" secondItem="ijj-b00-920" secondAttribute="centerY" id="TyT-gU-fmO"/>
                             <constraint firstItem="bjj-c00-952" firstAttribute="leading" secondItem="v5j-n00-953" secondAttribute="leadingMargin" constant="-2" id="ZEu-J0-TKk"/>
                             <constraint firstItem="tjj-i00-967" firstAttribute="leading" secondItem="v5j-n00-953" secondAttribute="leadingMargin" constant="-2" id="as7-Uu-EAq"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b01-071" secondAttribute="centerX" id="cgu-Kv-Jzv"/>
                             <constraint firstItem="ijj-P00-921" firstAttribute="leading" secondItem="v5j-n00-953" secondAttribute="leadingMargin" constant="69" id="dHR-uq-72A"/>
                             <constraint firstItem="tjj-i00-967" firstAttribute="top" secondItem="bjj-c00-952" secondAttribute="bottom" constant="29" id="dlm-Au-oXB"/>
                             <constraint firstItem="tjj-o00-971" firstAttribute="top" secondItem="bjj-s00-949" secondAttribute="bottom" constant="30" id="kUk-jF-pIV"/>
@@ -312,29 +306,32 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bgscroll" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-786">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bg_blue-long" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b01-072">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="824"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-PSD2XCODE" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-P00-809">
                                 <rect key="frame" x="85" y="149" width="152" height="135"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ijj-P00-809" secondAttribute="height" multiplier="152:135" id="wut-LW-GyL"/>
                                 </constraints>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjj-i00-406">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjj-i00-406">
                                 <rect key="frame" x="14" y="69" width="291" height="729"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" alpha="0.50196099999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bgwhite" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-870">
-                                        <rect key="frame" x="0.0" y="0.0" width="291" height="729"/>
+                                    <imageView userInteractionEnabled="NO" alpha="0.50196099999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bgwhite" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-870">
+                                        <rect key="frame" x="0.0" y="0.0" width="376" height="943"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-T00-597">
-                                        <rect key="frame" x="16" y="48" width="249" height="252"/>
-                                        <string key="text">We develop mobile • modern • user friendly • touchable • emotional &gt;&gt;&gt; applications &gt;&gt;&gt; we produce • games • entertainment apps • interactive business applications and tools &gt;&gt;&gt; with kind regards •  the j-apps team </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <rect key="frame" x="16" y="48" width="249" height="664"/>
+                                        <string key="text">We develop mobile • modern • user friendly • touchable • emotional &gt;&gt;&gt; applications &gt;&gt;&gt; we produce • games • entertainment apps • interactive business applications and tools &gt;&gt;&gt; with kind regards •  the j-apps team And this is Scrolling Text to demonstrate the Scroll Function - And this is Scrolling Text to demonstrate the Scroll Function - And this is Scrolling Text to demonstrate the Scroll Function - And this is Scrolling Text to demonstrate the Scroll Function - And this is Scrolling Text to demonstrate the Scroll Function - </string>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="AmericanTypewriter" pointSize="21"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="and this is text imported as text:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-T00-886">
                                         <rect key="frame" x="16" y="20" width="239" height="13"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="AmericanTypewriter" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -374,8 +371,10 @@
                             <constraint firstItem="bjj-p00-854" firstAttribute="top" secondItem="v3j-n00-807" secondAttribute="bottom" constant="9" id="VhG-NP-X6S"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bjj-p00-854" secondAttribute="trailing" constant="-1" id="YRe-4D-26u"/>
                             <constraint firstItem="ijj-P00-809" firstAttribute="leading" secondItem="v5j-n00-807" secondAttribute="leadingMargin" constant="69" id="avt-d8-d5F"/>
+                            <constraint firstAttribute="centerX" secondItem="ijj-b01-072" secondAttribute="centerX" id="eOE-uA-w6m"/>
                             <constraint firstAttribute="centerX" secondItem="ijj-b00-786" secondAttribute="centerX" id="fKu-M8-yqY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ijj-P00-809" secondAttribute="trailing" constant="67" id="fvy-i5-NLR"/>
+                            <constraint firstAttribute="centerY" secondItem="ijj-b01-072" secondAttribute="centerY" id="gt2-XG-xUk"/>
                             <constraint firstItem="bjj-c00-792" firstAttribute="top" secondItem="v3j-n00-807" secondAttribute="bottom" constant="10" id="hKh-yv-poa"/>
                             <constraint firstAttribute="centerY" secondItem="ijj-b00-786" secondAttribute="centerY" id="hVi-aK-ubT"/>
                             <constraint firstItem="v4j-n00-807" firstAttribute="top" secondItem="sjj-i00-406" secondAttribute="bottom" constant="26" id="pyQ-0U-4GS"/>
@@ -397,23 +396,28 @@
         <image name="btn-info" width="41" height="41"/>
         <image name="btn-input" width="40" height="40"/>
         <image name="btn-prefs" width="43" height="42"/>
-        <image name="def-music" width="136" height="37"/>
-        <image name="def-send" width="175" height="37"/>
-        <image name="def-sound" width="143" height="37"/>
-        <image name="hig-music" width="136" height="37"/>
-        <image name="hig-send" width="175" height="37"/>
-        <image name="hig-sound" width="143" height="37"/>
-        <image name="img-PSD2XCODE" width="197" height="174"/>
-        <image name="img-PrefsstyledText" width="204" height="79"/>
+        <image name="def-music" width="148" height="38"/>
+        <image name="def-send" width="175" height="38"/>
+        <image name="def-sound" width="147" height="38"/>
+        <image name="hig-music" width="148" height="38"/>
+        <image name="hig-send" width="175" height="38"/>
+        <image name="hig-sound" width="147" height="38"/>
+        <image name="img-PSD2XCODE" width="197" height="166"/>
+        <image name="img-PSD2XCODE4" width="172" height="145"/>
+        <image name="img-PSD2XCODE5" width="197" height="166"/>
+        <image name="img-PrefsstyledText" width="185" height="106"/>
+        <image name="img-bg_blue" width="456" height="767"/>
+        <image name="img-bg_blue-long" width="414" height="1067"/>
         <image name="img-bggradient" width="414" height="1066"/>
+        <image name="img-bggrey" width="456" height="767"/>
         <image name="img-bginput" width="376" height="154"/>
         <image name="img-bgouput" width="376" height="236"/>
         <image name="img-bgscroll" width="414" height="1066"/>
         <image name="img-bgwhite" width="376" height="943"/>
-        <image name="img-japps" width="199" height="56"/>
-        <image name="sel-music" width="136" height="37"/>
+        <image name="img-japps" width="193" height="55"/>
+        <image name="sel-music" width="148" height="37"/>
         <image name="sel-send" width="176" height="39"/>
-        <image name="sel-sound" width="143" height="37"/>
+        <image name="sel-sound" width="147" height="37"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -421,8 +425,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="fSb-qY-zJP"/>
         <segue reference="zz0-CL-dwU"/>
-        <segue reference="TzM-Uy-8YL"/>
-        <segue reference="KVY-fe-RZ9"/>
+        <segue reference="sF5-nu-abS"/>
     </inferredMetricsTieBreakers>
 </document>
