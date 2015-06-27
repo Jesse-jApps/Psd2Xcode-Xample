@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882E8D7F1B3EF4AC00127A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E8D7E1B3EF4AC00127A50 /* AppDelegate.swift */; };
+		882E8D811B3EF4AC00127A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E8D801B3EF4AC00127A50 /* ViewController.swift */; };
+		882E8D841B3EF4AC00127A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882E8D821B3EF4AC00127A50 /* Main.storyboard */; };
+		882E8D861B3EF4AC00127A50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882E8D851B3EF4AC00127A50 /* Images.xcassets */; };
+		882E8D891B3EF4AC00127A50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882E8D871B3EF4AC00127A50 /* LaunchScreen.xib */; };
+		882E8D951B3EF4AC00127A50 /* Landscape_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E8D941B3EF4AC00127A50 /* Landscape_iPhoneTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		882E8D8F1B3EF4AC00127A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 882E8D711B3EF4AC00127A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882E8D781B3EF4AC00127A50;
+			remoteInfo = "Landscape-iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		882E8D791B3EF4AC00127A50 /* Landscape-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Landscape-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		882E8D7D1B3EF4AC00127A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882E8D7E1B3EF4AC00127A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		882E8D801B3EF4AC00127A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		882E8D831B3EF4AC00127A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882E8D851B3EF4AC00127A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		882E8D881B3EF4AC00127A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		882E8D8E1B3EF4AC00127A50 /* Landscape-iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Landscape-iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		882E8D931B3EF4AC00127A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882E8D941B3EF4AC00127A50 /* Landscape_iPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landscape_iPhoneTests.swift; sourceTree = "<group>"; };
+		882E8D9F1B3EF4CA00127A50 /* example_landscape.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = example_landscape.psd; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882E8D761B3EF4AC00127A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882E8D8B1B3EF4AC00127A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		882E8D701B3EF4AC00127A50 = {
+			isa = PBXGroup;
+			children = (
+				882E8D7B1B3EF4AC00127A50 /* Landscape-iPhone */,
+				882E8D911B3EF4AC00127A50 /* Landscape-iPhoneTests */,
+				882E8D7A1B3EF4AC00127A50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		882E8D7A1B3EF4AC00127A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882E8D791B3EF4AC00127A50 /* Landscape-iPhone.app */,
+				882E8D8E1B3EF4AC00127A50 /* Landscape-iPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882E8D7B1B3EF4AC00127A50 /* Landscape-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				882E8D9E1B3EF4B700127A50 /* PSD */,
+				882E8D7E1B3EF4AC00127A50 /* AppDelegate.swift */,
+				882E8D801B3EF4AC00127A50 /* ViewController.swift */,
+				882E8D821B3EF4AC00127A50 /* Main.storyboard */,
+				882E8D851B3EF4AC00127A50 /* Images.xcassets */,
+				882E8D871B3EF4AC00127A50 /* LaunchScreen.xib */,
+				882E8D7C1B3EF4AC00127A50 /* Supporting Files */,
+			);
+			path = "Landscape-iPhone";
+			sourceTree = "<group>";
+		};
+		882E8D7C1B3EF4AC00127A50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				882E8D7D1B3EF4AC00127A50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		882E8D911B3EF4AC00127A50 /* Landscape-iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				882E8D941B3EF4AC00127A50 /* Landscape_iPhoneTests.swift */,
+				882E8D921B3EF4AC00127A50 /* Supporting Files */,
+			);
+			path = "Landscape-iPhoneTests";
+			sourceTree = "<group>";
+		};
+		882E8D921B3EF4AC00127A50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				882E8D931B3EF4AC00127A50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		882E8D9E1B3EF4B700127A50 /* PSD */ = {
+			isa = PBXGroup;
+			children = (
+				882E8D9F1B3EF4CA00127A50 /* example_landscape.psd */,
+			);
+			name = PSD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882E8D781B3EF4AC00127A50 /* Landscape-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882E8D981B3EF4AC00127A50 /* Build configuration list for PBXNativeTarget "Landscape-iPhone" */;
+			buildPhases = (
+				882E8D751B3EF4AC00127A50 /* Sources */,
+				882E8D761B3EF4AC00127A50 /* Frameworks */,
+				882E8D771B3EF4AC00127A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Landscape-iPhone";
+			productName = "Landscape-iPhone";
+			productReference = 882E8D791B3EF4AC00127A50 /* Landscape-iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		882E8D8D1B3EF4AC00127A50 /* Landscape-iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882E8D9B1B3EF4AC00127A50 /* Build configuration list for PBXNativeTarget "Landscape-iPhoneTests" */;
+			buildPhases = (
+				882E8D8A1B3EF4AC00127A50 /* Sources */,
+				882E8D8B1B3EF4AC00127A50 /* Frameworks */,
+				882E8D8C1B3EF4AC00127A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882E8D901B3EF4AC00127A50 /* PBXTargetDependency */,
+			);
+			name = "Landscape-iPhoneTests";
+			productName = "Landscape-iPhoneTests";
+			productReference = 882E8D8E1B3EF4AC00127A50 /* Landscape-iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882E8D711B3EF4AC00127A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jesse Hinrichsen";
+				TargetAttributes = {
+					882E8D781B3EF4AC00127A50 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					882E8D8D1B3EF4AC00127A50 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 882E8D781B3EF4AC00127A50;
+					};
+				};
+			};
+			buildConfigurationList = 882E8D741B3EF4AC00127A50 /* Build configuration list for PBXProject "Landscape-iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882E8D701B3EF4AC00127A50;
+			productRefGroup = 882E8D7A1B3EF4AC00127A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882E8D781B3EF4AC00127A50 /* Landscape-iPhone */,
+				882E8D8D1B3EF4AC00127A50 /* Landscape-iPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882E8D771B3EF4AC00127A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882E8D841B3EF4AC00127A50 /* Main.storyboard in Resources */,
+				882E8D891B3EF4AC00127A50 /* LaunchScreen.xib in Resources */,
+				882E8D861B3EF4AC00127A50 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882E8D8C1B3EF4AC00127A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882E8D751B3EF4AC00127A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882E8D811B3EF4AC00127A50 /* ViewController.swift in Sources */,
+				882E8D7F1B3EF4AC00127A50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882E8D8A1B3EF4AC00127A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882E8D951B3EF4AC00127A50 /* Landscape_iPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		882E8D901B3EF4AC00127A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882E8D781B3EF4AC00127A50 /* Landscape-iPhone */;
+			targetProxy = 882E8D8F1B3EF4AC00127A50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		882E8D821B3EF4AC00127A50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882E8D831B3EF4AC00127A50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		882E8D871B3EF4AC00127A50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882E8D881B3EF4AC00127A50 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882E8D961B3EF4AC00127A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		882E8D971B3EF4AC00127A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882E8D991B3EF4AC00127A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Landscape-iPhone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		882E8D9A1B3EF4AC00127A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Landscape-iPhone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		882E8D9C1B3EF4AC00127A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Landscape-iPhoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landscape-iPhone.app/Landscape-iPhone";
+			};
+			name = Debug;
+		};
+		882E8D9D1B3EF4AC00127A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Landscape-iPhoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landscape-iPhone.app/Landscape-iPhone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882E8D741B3EF4AC00127A50 /* Build configuration list for PBXProject "Landscape-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882E8D961B3EF4AC00127A50 /* Debug */,
+				882E8D971B3EF4AC00127A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882E8D981B3EF4AC00127A50 /* Build configuration list for PBXNativeTarget "Landscape-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882E8D991B3EF4AC00127A50 /* Debug */,
+				882E8D9A1B3EF4AC00127A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882E8D9B1B3EF4AC00127A50 /* Build configuration list for PBXNativeTarget "Landscape-iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882E8D9C1B3EF4AC00127A50 /* Debug */,
+				882E8D9D1B3EF4AC00127A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 882E8D711B3EF4AC00127A50 /* Project object */;
+}
