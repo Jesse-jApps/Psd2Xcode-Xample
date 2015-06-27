@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vjj-t00-361">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vjj-t00-361">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -21,8 +21,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bg1" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-362">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="569"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-m00-400">
-                                <rect key="frame" x="24" y="355" width="271" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-m00-400">
+                                <rect key="frame" x="24" y="354" width="270" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bjj-m00-400" secondAttribute="height" multiplier="271:54" id="3kO-h7-kY3"/>
                                 </constraints>
@@ -33,8 +33,8 @@
                                     <segue destination="vjj-o00-057" kind="modal" id="ICV-EJ-doe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-n00-386">
-                                <rect key="frame" x="24" y="268" width="271" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-n00-386">
+                                <rect key="frame" x="24" y="268" width="270" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bjj-n00-386" secondAttribute="height" multiplier="271:54" id="o8t-Lq-GT4"/>
                                 </constraints>
@@ -45,8 +45,8 @@
                                     <segue destination="vjj-a00-080" kind="modal" id="IZm-Kz-6sc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-p00-359">
-                                <rect key="frame" x="24" y="181" width="271" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-p00-359">
+                                <rect key="frame" x="24" y="181" width="270" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bjj-p00-359" secondAttribute="height" multiplier="271:54" id="XkB-yb-CIX"/>
                                 </constraints>
@@ -57,14 +57,14 @@
                                     <segue destination="vjj-e00-234" kind="modal" id="bEr-wj-FiU"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-logo-small" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-l00-768">
-                                <rect key="frame" x="97" y="47" width="122" height="105"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-logo-small" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-l00-768">
+                                <rect key="frame" x="98" y="36" width="122" height="105"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ijj-l00-768" secondAttribute="height" multiplier="122:105" id="MJS-Hn-Uae"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-453">
-                                <rect key="frame" x="137" y="481" width="48" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-453">
+                                <rect key="frame" x="135" y="473" width="48" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="Kxj-JA-Chq"/>
                                     <constraint firstAttribute="height" constant="49" id="wci-t7-8CV"/>
@@ -119,8 +119,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bg3" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-238">
                                 <rect key="frame" x="-47" y="-84" width="414" height="737"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-103">
-                                <rect key="frame" x="26" y="262" width="271" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-103">
+                                <rect key="frame" x="24" y="268" width="270" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bjj-c00-103" secondAttribute="height" multiplier="271:54" id="otL-Lz-TBy"/>
                                 </constraints>
@@ -132,8 +132,8 @@
                                     <segue destination="vjj-t00-361" kind="modal" id="KzP-W8-t30"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-116">
-                                <rect key="frame" x="137" y="481" width="48" height="48"/>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-116">
+                                <rect key="frame" x="135" y="473" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="FYn-Tv-52i"/>
                                     <constraint firstAttribute="width" constant="48" id="S5J-rl-Tjb"/>
@@ -143,16 +143,16 @@
                                     <segue destination="vjj-t00-361" kind="modal" id="11X-Wa-hBW"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nobody" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-textfield" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-n00-086">
-                                <rect key="frame" x="24" y="163" width="271" height="54"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nobody" adjustsFontSizeToFit="NO" minimumFontSize="12" background="img-textfield" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-n00-086">
+                                <rect key="frame" x="24" y="181" width="270" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tjj-n00-086" secondAttribute="height" multiplier="271:54" id="Aft-hz-SMK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-hello" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-h00-084">
-                                <rect key="frame" x="114" y="67" width="93" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-hello" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-h00-084">
+                                <rect key="frame" x="114" y="68" width="93" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ijj-h00-084" secondAttribute="height" multiplier="31:10" id="6YO-KP-FlU"/>
                                 </constraints>
@@ -198,110 +198,110 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bg2" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-236">
                                 <rect key="frame" x="-47" y="-84" width="414" height="737"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-874">
-                                <rect key="frame" x="19" y="105" width="89" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-874">
+                                <rect key="frame" x="15" y="116" width="89" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="89" id="6Gc-J6-Ibf"/>
                                     <constraint firstAttribute="height" constant="89" id="h4B-mj-Zu8"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-icon-2" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-875">
-                                <rect key="frame" x="117" y="105" width="89" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-icon-2" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-875">
+                                <rect key="frame" x="115" y="116" width="89" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="89" id="hO8-cO-xMX"/>
                                     <constraint firstAttribute="height" constant="89" id="zD4-mM-BkJ"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-icon-3" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-876">
-                                <rect key="frame" x="214" y="105" width="89" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-icon-3" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-876">
+                                <rect key="frame" x="215" y="116" width="89" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="89" id="0hR-qh-F2Z"/>
                                     <constraint firstAttribute="height" constant="89" id="FI7-59-TkL"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-icon-4" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-877">
-                                <rect key="frame" x="19" y="242" width="89" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-icon-4" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-877">
+                                <rect key="frame" x="15" y="253" width="89" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="89" id="Rj9-xa-TLr"/>
                                     <constraint firstAttribute="height" constant="89" id="WVG-PE-GDF"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-icon-5" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-878">
-                                <rect key="frame" x="116" y="242" width="89" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-icon-5" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-878">
+                                <rect key="frame" x="115" y="253" width="89" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="89" id="Y70-b5-mki"/>
                                     <constraint firstAttribute="height" constant="89" id="pvK-zg-VGv"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-icon-6" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-879">
-                                <rect key="frame" x="214" y="242" width="88" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-icon-6" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-i00-879">
+                                <rect key="frame" x="215" y="253" width="88" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="88" id="WA3-8u-pxz"/>
                                     <constraint firstAttribute="height" constant="89" id="hB8-KM-V9r"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jMagic" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-072">
-                                <rect key="frame" x="40" y="210" width="43" height="13"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="jMagic" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-072">
+                                <rect key="frame" x="36" y="221" width="43" height="13"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="43" id="PpB-Ag-aah"/>
                                     <constraint firstAttribute="height" constant="13" id="gqX-Ug-w6S"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jemory ART" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-073">
-                                <rect key="frame" x="120" y="210" width="76" height="13"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="jemory ART" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-073">
+                                <rect key="frame" x="121" y="221" width="76" height="13"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="13" id="CxL-qH-Scl"/>
                                     <constraint firstAttribute="width" constant="76" id="HOC-X0-foS"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jemory4kids" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-074">
-                                <rect key="frame" x="216" y="210" width="78" height="14"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="jemory4kids" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-074">
+                                <rect key="frame" x="219" y="220" width="78" height="14"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="BGj-NA-d9V"/>
                                     <constraint firstAttribute="width" constant="78" id="hZu-u8-eim"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jack it" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-075">
-                                <rect key="frame" x="43" y="350" width="38" height="14"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="jack it" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-075">
+                                <rect key="frame" x="38" y="360" width="38" height="14"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="PbB-aK-QtF"/>
                                     <constraint firstAttribute="width" constant="38" id="e2C-HS-4PD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="joKing" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-076">
-                                <rect key="frame" x="137" y="351" width="41" height="13"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="joKing" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-076">
+                                <rect key="frame" x="138" y="361" width="41" height="13"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="13" id="MmQ-7f-Mvh"/>
                                     <constraint firstAttribute="width" constant="41" id="kOo-p8-UZQ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jemory" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-077">
-                                <rect key="frame" x="236" y="351" width="45" height="13"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="jemory" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-a00-077">
+                                <rect key="frame" x="236" y="361" width="45" height="13"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="45" id="BJg-xY-Unb"/>
                                     <constraint firstAttribute="height" constant="13" id="NM1-lS-AXK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-w00-079">
-                                <rect key="frame" x="28" y="391" width="264" height="29"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-w00-079">
+                                <rect key="frame" x="26" y="414" width="264" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="264" id="dRS-N2-0mh"/>
                                     <constraint firstAttribute="height" constant="29" id="unR-Eb-BYP"/>
@@ -311,15 +311,18 @@
                                     <action selector="openJapps:" destination="vjj-o00-057" eventType="touchUpInside" id="QvK-va-5yj"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-logo_japps" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-l00-060">
-                                <rect key="frame" x="82" y="45" width="152" height="29"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-logo_japps" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-l00-060">
+                                <rect key="frame" x="82" y="55" width="152" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="152" id="5wJ-l9-aKi"/>
                                     <constraint firstAttribute="height" constant="29" id="o7u-de-KlE"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-131">
-                                <rect key="frame" x="137" y="481" width="48" height="48"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-japps_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-j00-992">
+                                <rect key="frame" x="65" y="35" width="188" height="54"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-131">
+                                <rect key="frame" x="135" y="473" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="7sZ-88-F5k"/>
                                     <constraint firstAttribute="width" constant="48" id="LAi-Z1-M0c"/>
@@ -386,19 +389,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bg2" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-336">
                                 <rect key="frame" x="-47" y="-84" width="414" height="737"/>
                             </imageView>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-132">
-                                <rect key="frame" x="137" y="480" width="48" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="1OO-IK-413"/>
-                                    <constraint firstAttribute="width" constant="48" id="C9y-w4-lqw"/>
-                                </constraints>
-                                <state key="normal" title="" backgroundImage="btn-close"/>
-                                <connections>
-                                    <segue destination="vjj-t00-361" kind="modal" id="trN-Dm-feQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-138">
-                                <rect key="frame" x="64" y="142" width="200" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-s00-138">
+                                <rect key="frame" x="51" y="142" width="214" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Icv-fP-pep"/>
                                     <constraint firstAttribute="height" constant="39" id="zTC-0Z-zbL"/>
@@ -410,8 +402,8 @@
                                     <action selector="triggerSoundControll:" destination="vjj-e00-135" eventType="touchUpInside" id="HV6-As-AS5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-m00-173">
-                                <rect key="frame" x="69" y="215" width="196" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-m00-173">
+                                <rect key="frame" x="53" y="215" width="212" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="05r-kI-UL2"/>
                                     <constraint firstAttribute="width" constant="196" id="r8T-eL-hIv"/>
@@ -421,6 +413,17 @@
                                 <state key="highlighted" title="" backgroundImage="hig-music"/>
                                 <connections>
                                     <action selector="triggerMusicControll:" destination="vjj-e00-135" eventType="touchUpInside" id="8xY-E3-zdP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-132">
+                                <rect key="frame" x="135" y="473" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="1OO-IK-413"/>
+                                    <constraint firstAttribute="width" constant="48" id="C9y-w4-lqw"/>
+                                </constraints>
+                                <state key="normal" title="" backgroundImage="btn-close"/>
+                                <connections>
+                                    <segue destination="vjj-t00-361" kind="modal" id="trN-Dm-feQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -464,14 +467,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="741"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-logo-small" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-l00-769">
-                                        <rect key="frame" x="98" y="47" width="122" height="105"/>
+                                        <rect key="frame" x="98" y="36" width="122" height="105"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="105" id="CxL-pz-afw"/>
                                             <constraint firstAttribute="width" constant="122" id="U7J-7j-Lbf"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-l00-287">
-                                        <rect key="frame" x="48" y="532" width="79" height="79"/>
+                                        <rect key="frame" x="58" y="517" width="79" height="79"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="79" id="RFd-e2-yx8"/>
                                             <constraint firstAttribute="height" constant="79" id="dLA-HY-XJ3"/>
@@ -482,7 +485,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-l00-273">
-                                        <rect key="frame" x="183" y="354" width="79" height="79"/>
+                                        <rect key="frame" x="183" y="333" width="79" height="79"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="79" id="ZmU-QI-JKN"/>
                                             <constraint firstAttribute="width" constant="79" id="lcS-Tf-igp"/>
@@ -492,8 +495,8 @@
                                             <segue destination="vjj-a00-008" kind="modal" identifier="Level2" id="whc-uA-asy"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-l00-251">
-                                        <rect key="frame" x="49" y="218" width="79" height="79"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-l00-251">
+                                        <rect key="frame" x="49" y="208" width="79" height="79"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="79" id="T0E-3Z-Q65"/>
                                             <constraint firstAttribute="width" constant="79" id="g0e-GV-ERE"/>
@@ -503,8 +506,8 @@
                                             <segue destination="vjj-a00-008" kind="modal" identifier="Level1" id="RL0-o7-Bcb"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-289">
-                                        <rect key="frame" x="134" y="657" width="48" height="48"/>
+                                    <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-289">
+                                        <rect key="frame" x="136" y="649" width="48" height="48"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="fk9-lv-hdy"/>
                                             <constraint firstAttribute="width" constant="48" id="mdX-Fe-1oS"/>
@@ -565,24 +568,24 @@
                                     <constraint firstAttribute="height" constant="47" id="q3q-Cv-XA9"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-n00-178">
-                                <rect key="frame" x="190" y="16" width="57" height="23"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-n00-178">
+                                <rect key="frame" x="157" y="17" width="57" height="11"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="23" id="DsB-zI-9de"/>
                                     <constraint firstAttribute="width" constant="57" id="Ihm-xb-zJu"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="score" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-s00-179">
-                                <rect key="frame" x="35" y="16" width="56" height="23"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="score" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-s00-179">
+                                <rect key="frame" x="20" y="17" width="56" height="11"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="56" id="7ki-12-uBk"/>
                                     <constraint firstAttribute="height" constant="23" id="eks-O4-gZF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bgquestions" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-184">
@@ -591,12 +594,12 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-q00-772">
                                 <rect key="frame" x="39" y="99" width="236" height="210"/>
                                 <string key="text">questionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestionquestion</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-r00-041">
-                                <rect key="frame" x="167" y="394" width="130" height="130"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-r00-041">
+                                <rect key="frame" x="170" y="394" width="130" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="CtL-2f-8Il"/>
                                     <constraint firstAttribute="width" constant="130" id="nu7-eo-yOL"/>
@@ -607,8 +610,8 @@
                                     <action selector="right:" destination="vjj-a00-008" eventType="touchUpInside" id="QkM-6u-41N"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-w00-204">
-                                <rect key="frame" x="12" y="394" width="130" height="130"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-w00-204">
+                                <rect key="frame" x="17" y="394" width="130" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="WbW-d4-6kq"/>
                                     <constraint firstAttribute="width" constant="130" id="cXP-Vj-gfY"/>
@@ -672,21 +675,31 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bg3" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-240">
                                 <rect key="frame" x="-47" y="-84" width="414" height="737"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-bgend" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-233">
-                                <rect key="frame" x="16" y="123" width="285" height="330"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img-bgend" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-b00-233">
+                                <rect key="frame" x="16" y="102" width="285" height="330"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="330" id="7hh-qP-9Ki"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-e00-222">
-                                <rect key="frame" x="40" y="149" width="237" height="270"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-e00-222">
+                                <rect key="frame" x="40" y="128" width="237" height="270"/>
                                 <string key="text">TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="25"/>
+                                <color key="textColor" red="0.10979999999999999" green="0.10979999999999999" blue="0.10979999999999999" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-226">
-                                <rect key="frame" x="137" y="481" width="48" height="48"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hey" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-h00-231">
+                                <rect key="frame" x="120" y="39" width="72" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="c4H-a9-1V6"/>
+                                    <constraint firstAttribute="height" constant="41" id="lmR-rL-sKp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="34"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-c00-226">
+                                <rect key="frame" x="135" y="473" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="mAD-Cm-tRb"/>
                                     <constraint firstAttribute="width" constant="48" id="oX7-rb-rmj"/>
@@ -696,16 +709,6 @@
                                     <segue destination="vjj-e00-234" kind="modal" id="GRK-tX-uuo"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjj-h00-231">
-                                <rect key="frame" x="16" y="67" width="285" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="285" id="c4H-a9-1V6"/>
-                                    <constraint firstAttribute="height" constant="41" id="lmR-rL-sKp"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -731,32 +734,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6j-n00-232" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2097" y="10"/>
+            <point key="canvasLocation" x="2040" y="0.0"/>
         </scene>
     </scenes>
     <resources>
-        <image name="btn-close" width="63" height="63"/>
+        <image name="btn-close" width="62" height="62"/>
         <image name="btn-level1" width="102" height="102"/>
         <image name="btn-level2" width="102" height="102"/>
         <image name="btn-level3" width="102" height="102"/>
-        <image name="btn-www-japps" width="341" height="37"/>
+        <image name="btn-www-japps" width="342" height="37"/>
         <image name="def-change" width="350" height="70"/>
         <image name="def-more" width="350" height="70"/>
-        <image name="def-music" width="254" height="51"/>
+        <image name="def-music" width="275" height="51"/>
         <image name="def-name" width="350" height="70"/>
         <image name="def-play" width="350" height="70"/>
         <image name="def-right" width="168" height="169"/>
         <image name="def-settings" width="63" height="63"/>
-        <image name="def-sound" width="260" height="51"/>
+        <image name="def-sound" width="277" height="51"/>
         <image name="def-wrong" width="169" height="169"/>
         <image name="hig-change" width="350" height="70"/>
         <image name="hig-more" width="350" height="70"/>
-        <image name="hig-music" width="254" height="51"/>
+        <image name="hig-music" width="275" height="51"/>
         <image name="hig-name" width="350" height="70"/>
         <image name="hig-play" width="350" height="70"/>
         <image name="hig-right" width="168" height="169"/>
         <image name="hig-settings" width="62" height="62"/>
-        <image name="hig-sound" width="260" height="51"/>
+        <image name="hig-sound" width="277" height="51"/>
         <image name="hig-wrong" width="169" height="169"/>
         <image name="img-bar" width="414" height="61"/>
         <image name="img-bg1" width="414" height="737"/>
@@ -772,16 +775,17 @@
         <image name="img-icon-4" width="115" height="115"/>
         <image name="img-icon-5" width="115" height="115"/>
         <image name="img-icon-6" width="115" height="115"/>
+        <image name="img-japps_logo" width="243" height="70"/>
         <image name="img-logo-small" width="159" height="136"/>
         <image name="img-logo_japps" width="196" height="38"/>
         <image name="img-textfield" width="350" height="70"/>
         <image name="sel-change" width="350" height="70"/>
         <image name="sel-more" width="350" height="70"/>
-        <image name="sel-music" width="254" height="51"/>
+        <image name="sel-music" width="275" height="51"/>
         <image name="sel-name" width="350" height="70"/>
         <image name="sel-play" width="350" height="70"/>
         <image name="sel-settings" width="62" height="62"/>
-        <image name="sel-sound" width="260" height="51"/>
+        <image name="sel-sound" width="277" height="51"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -789,8 +793,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="7Ya-BP-9P0"/>
         <segue reference="whc-uA-asy"/>
-        <segue reference="GRK-tX-uuo"/>
+        <segue reference="bEr-wj-FiU"/>
+        <segue reference="KzP-W8-t30"/>
     </inferredMetricsTieBreakers>
 </document>
