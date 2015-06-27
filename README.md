@@ -10,6 +10,10 @@ This Repository provides projects for Psd2Xcode. Each project contains a PSD fil
 
 A simple Xample to illustrate the basic features that **Psd2Xcode** provides.
 
+### Landscape-iPhone
+
+To show that it's also no problem in landscape orientation.
+
 ### WrongOrRight-iPhone
 
 A little game that is completely based on one PSD file.
