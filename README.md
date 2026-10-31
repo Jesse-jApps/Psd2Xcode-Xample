@@ -1,3 +1,10 @@
+## Project status
+
+Historical project, last developed in 2015. Historical Objective-C/Xcode example projects and design assets. This repository contains examples, not the PSD-to-Xcode generator.
+
+No current runtime or production compatibility is claimed. The original source
+and results are retained for reference.
+
 Psd2Xcode-Xample
 ================
 
